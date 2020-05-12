@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'MyriadPro-Cond';
+    src: url("../font/myriadpro-cond-webfont.eot");
+    src: url("../font/myriadpro-cond-webfont.eot-#iefix") format('embedded-opentype'),
+         url("../font/myriadpro-cond-webfont.woff") format('woff'),
+         url("../font/myriadpro-cond-webfont.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    margin: 0;
+    font-family: 'MyriadPro-Cond';
+}
+.bg-header{
+    height: 55px;
+    background: green;
+    padding: 0 10px;
+}
+p{
+    margin: 5px 0 0 0;
+}
+a{
+    text-decoration: none;
+}
+.d-flex{
+    display: flex;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.my-10{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.text-right{
+    text-align: right;
+}
+.logo-header{
+    max-width: 250px;
+    margin-top: 7px;
+    height: 44px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-2{
+    flex:  0 0 16.667%;
+    max-width: 16.667%;
+}
+.col-4{
+    flex:  0 0 33.333%;
+    max-width: 33.333%;
+}
+.col-10{
+    flex:  0 0 83.333%;
+    max-width: 83.333%;
+}
+.j-flex-end{
+    justify-content: space-between;
+}
+.menu ul{
+    list-style: none;
+    margin: 0;
+    background: #ffffff;
+    width: 150px;
+    display: none;
+    position: absolute;
+    padding: 0;
+    z-index: 1000;
+}
+.menu ul li{
+    padding:  5px 0;
+}
+.hover-menu{
+    padding-bottom: 2px;
+    margin: 0 5px;
+    display: inline-block;
+}
+.hover-menu:last-child{
+    margin-right: 0;
+}
+.hover-menu:first-child{
+    margin-left: 0;
+}
+.hover-menu:hover ul{
+    display: block
+}
+.hover-menu a{
+    color: black;
+}
+.bg-brow{
+    background: rgb(188, 199, 168);
+}
+.heightvh{
+    height: calc(100vh - 55px);
+}
+.heightfull{
+    height: 100%;
+}
+.color-yellow{
+    color: yellow !important;
+}
+.tab a{
+    background: rgb(29, 83, 199);   
+    color: #ffffff;
+    padding: 5px 0;
+    display: inline-block;
+    text-align: center;
+}
+.tab a:nth-of-type(2){
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    max-width: calc(33.333% - 2px);
+    flex: calc(33.333% - 2px);
+}
+.w-52{
+    width: 52px;
+}
+.w-115{
+    width: 115px;
+}
+.w-118{
+    width: 119px;
+}
+.table-render tr,.table-render th,.table-render td{
+    border: 1px solid black;
+}  
+.table-render{
+    border-collapse: collapse;
+}
+.table-render th{
+    background: rgb(157, 190, 157);
+}
+.table-render td{
+    background: #ffffff;
+}
+.color-red{
+    color: red;
+}
